@@ -1,0 +1,39 @@
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+}
+
+a:link, a:visited {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+li:not(:last-child) {
+  border-bottom: 2px dashed #f5f5ff;
+}
+
+a:hover {
+  color: purple;
+  font-weight: 600;
+}
+
+.active-link {
+  color: purple;
+  font-weight: 600;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  display: block;
+  padding: 0;
+}
+
+p {
+  text-align: left;
+}

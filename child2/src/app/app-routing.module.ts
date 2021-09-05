@@ -10,7 +10,8 @@ const routes: Routes = [{
   children: [
     /**
      * All routes specific to this app go here.
-     */
+  */
+
     {
       path: 'page1',
       component: Page1Component
